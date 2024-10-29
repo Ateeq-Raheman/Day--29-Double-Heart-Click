@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Double Heart Like</title>
+</head>
+
+<body>
+    <div class="text">
+        <h2>Double Click On the Image to Like it</h2>
+        <h3>You liked It <span id="times" >0</span> times</h3>
+    </div>
+    <div class="insta-post">
+        <div class="post-header">
+            <div class="user-info">
+                <img onerror="this.style.display='none';" src="profile.jpg" alt="Profile Image" class="profile-pic">
+                <span class="username">Contessa</span>
+            </div>
+            <div class="post-options">
+                <i class="fa fa-ellipsis-h"></i>
+            </div>
+        </div>
+        
+            <div class="post-image">
+                <img onerror="this.style.display='none';" src="Classic HM Contessa Red.jpeg" alt="Post Image" id="postImage">
+            </div>    
+
+        <div class="post-interactions">
+            <div class="interactions">
+                <i id="heart" class="fa fa-heart"></i>
+                <i class="fa fa-comment"></i>
+                <i class="fa fa-paper-plane"></i>
+            </div>
+            <div class="save-post">
+                <i class="fa fa-bookmark"></i>
+            </div>
+        </div>
+    
+        <div class="post-caption">
+            <span class="username">Contessa</span> Indian Muscle Car.
+        </div>
+    
+        <!-- <div class="post-comments">
+            <span class="view-comments">View all 10 comments</span>
+        </div>
+    
+        <div class="add-comment">
+            <input type="text" placeholder="Add a comment..." id="commentInput">
+            <button id="postCommentBtn">Post</button>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
